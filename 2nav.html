@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1"/>
+	<title>2stepNav</title>
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky-kit.min.js"></script>
+</head>
+<body>
+	<!--wrapper_box 開始-->
+	<div class="wrapper_box">
+		<!--wrapper 開始-->
+		<div class="wrapper" data-sticky_parent>
+
+			<div class="etTop_box">
+				<div class="etTop"></div>
+			</div>
+
+			<nav id="stickyBar">
+				<div class="navMenu"></div>
+			</nav>
+
+			<!--container_box 開始-->
+       		<div class="container_box">
+	           	<!--container 開始-->
+	           	<div class="container">
+	           		<div class="conMain">
+						<img src="images/content.jpg" alt="">
+					</div>
+					<div class="conSide">
+						<aside></aside>
+					</div>
+	           	</div>
+	           	<!--container 結束-->
+	        </div>
+	        <!--container_box 結束-->
+
+	        <!-- 側欄滾動固定 start -->
+			<script type="text/javascript" src="js/sidebar-stick-2.js"></script>
+			<!-- 側欄滾動固定 start-->
+
+			<!-- 底欄滾動固定 start -->
+			<div class="footer_box">
+				<!--版尾主選單 開始
+				<div class="footer_nav">
+				    <ul>
+				        <li><a href="#" title=""><span>總覽</span></a></li>
+						<li><a href="#" title=""><span>專題</span></a></li>
+				        <li><a href="#" title=""><span>論壇</span></a></li>
+				        <li><a href="#" title=""><span>政治</span></a></li>
+				        <li><a href="#" title=""><span>財經</span></a></li>                        
+				        <li><a href="#" title=""><span>BBC</span></a></li>
+				        <li><a href="#" title=""><span>影音</span></a></li>
+				        <li><a href="#" title=""><span>圖集</span></a></li>
+				        <li><a href="#" title=""><span>國際</span></a></li>
+				        <li><a href="#" title=""><span>大陸</span></a></li>
+				        <li><a href="#" title=""><span>新奇</span></a></li>
+				        <li><a href="#" title=""><span>生活</span></a></li>
+				        <li><a href="#" title=""><span>社會</span></a></li>
+				        <li><a href="#" title=""><span>地方</span></a></li>
+				        <li><a href="#" title=""><span>寵物</span></a></li>
+				        <li><a href="#" title=""><span>影劇</span></a></li>
+				        <li><a href="#" title=""><span>體育</span></a></li>
+				        <li><a href="#" title=""><span>旅遊</span></a></li>
+				        <li><a href="#" title=""><span>消費</span></a></li>
+				        <li><a href="#" title=""><span>3C</span></a></li>
+				        <li><a href="#" title=""><span>名家</span></a></li>
+				        <li><a href="#" title=""><span>雜誌</span></a></li>
+				    </ul>
+				</div>-->
+				<!--版尾主選單 結束-->
+
+				<!--footer 開始-->
+			    <div class="footer">	        
+			        <!--footer_menu 開始
+			        <div class="footer_menu">
+			            <ul>
+			                <li><a href="#">我要投稿</a></li>
+			                <li>|</li>
+			                <li><a href="#">人才招募</a></li>
+			                <li>|</li>
+			                <li><a href="#">關於我們</a></li>
+			                <li>|</li>
+			                <li><a href="#">集團簡介</a></li>
+			                <li>|</li>
+			                <li><a href="#">廣告刊登/合作提案</a></li>
+			                <li>|</li>
+			                <li><a href="#">客服信箱</a></li>
+			                <li>|</li>
+			                <li><a href="#">Google+</a></li>
+			                <li>|</li>
+			                <li><a href="#">Sitemap</a></li>
+			                <li>|</li>
+			                <li><a href="#">服務條款</a></li>
+			                <li>|</li>
+			                <li><a href="#">隱私權政策</a></li>
+			                <li>|</li>
+			                <li><a href="#">著作權聲明</a></li>
+			                <li>|</li>
+			                <li><a href="#">免責聲明</a></li>
+			            </ul>
+			        </div>-->
+			        <!--footer_menu 結束-->
+			        <img src="images/megaMenu.gif" alt="">
+			    </div>
+			    <!--footer 結束-->
+			</div>
+			<!-- 底欄滾動固定 結束 -->
+
+			<!-- 類別熱門關鍵字 start -->
+			<div class="hotKWBox">
+				<div class="keyWBar">
+					<img src="images/hotKeyWord.gif" alt="">
+				</div>
+			</div>
+			<!-- 類別熱門關鍵字 結束 -->
+
+
+<!-- 側欄滾動固定 start-->
+<script type="text/javascript" src="js/boxStick.js"></script>
+<!-- 側欄滾動固定 start-->
+
+		</div>
+		<!--wrapper 結束-->
+	</div>
+	<!--wrapper_box 結束-->
+	
+<script language=JavaScript>
+	<!--
+	//sticky Nav
+	(function() {
+	  var reset_scroll,
+	    _this = this;
+
+	  $(function() {
+	    return $("#stickyBar").stick_in_parent({
+	      parent: "[data-sticky_parent]"
+	    });
+	  });
+	}).call(this);
+</script>
+</body>
+</html>

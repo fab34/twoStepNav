@@ -1,0 +1,107 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+@import "compass/utilities/general/hacks";
+
+@import "vals";
+@import "base";
+
+/*wrapper ======================*/
+.wrapper_box{
+	background: $wht;
+	position: relative;
+	z-index: 3;
+	.wrapper{
+		
+	}
+}
+
+/*上方列======================*/
+.etTop_box{
+	height:111px;
+	width: 100%;
+	background: #fff; /* Old browsers */
+	background:linear-gradient(top,#2e2e2e 0%,#2e2e2e 28%,#fff 28%,#fff 100%,#fff 100%);
+
+	.etTop{
+		width:998px;
+		height:111px;
+		margin:0 auto;
+		position:relative;
+		background:url(../images/header.jpg) repeat-x;
+	}
+}
+
+nav{
+	width:100%;
+	height:38px;
+	position:relative;
+	background: #fff; /* Old browsers */
+	background:linear-gradient(top,#fff 0%,#fff 10%,#dbdbdb 10%,#dbdbdb 100%,#dbdbdb 100%);
+	z-index: 9;
+	//box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	.navMenu{
+		width:998px;
+		height:38px;
+		margin:0 auto;
+		position:relative;
+		background:url(../images/top-nav.gif) repeat-x;
+	}
+}
+//#sticky{margin-top:-5px;}
+/*container 身======================*/
+.container_box{
+	clear:both;
+}
+.container{
+	width:998px;/*1000*/
+	padding:0;
+	margin:0 auto;
+	position:relative;
+}
+
+/*footer 尾======================*/
+.footer_box{
+	clear:both;
+	background:#ededed;
+	.footer_nav{
+		text-align:center;
+		font-size:16px;
+		border-top:1px dashed #ccc;
+		padding:10px 0 0 0;
+		li {
+			display:inline;
+			margin:0 3px;
+		}
+	}
+	.footer{/****** 尾區 *******/
+		width:998px;
+		height:200px;/*400*/
+		margin:0 auto;
+		position:relative;
+		.footer_menu{/*footer_menu===*/
+			text-align:center;
+			padding-top:20px;
+			li{
+				display:inline;
+				padding:0px 2px;
+			}
+		}
+		address{/*版權*/
+			text-align:center;
+			font-style:normal;
+			margin-top:10px;
+		}
+	}
+}
+
+
+.hotKWBox{
+	bottom:0;
+	position: fixed;
+	width:100%;
+	.keyWBar{
+		margin:0 auto;
+		width:998px;
+	}
+}
